@@ -3,3 +3,7 @@ zuul:
     service-provider:
       path: /service/**
       serviceId: eureka-service
+  host:
+    max-per-route-connections: 60000
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
