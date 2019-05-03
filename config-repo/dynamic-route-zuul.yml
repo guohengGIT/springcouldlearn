@@ -3,6 +3,7 @@ zuul:
     service-provider:
       path: /service/**
       serviceId: eureka-service
+      stripPrefix: true
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
