@@ -1,7 +1,7 @@
 zuul:
   routes:
     service-provider:
-      path: /service1/**
+      path: /service/**
       serviceId: eureka-service
       stripPrefix: true
   host:
